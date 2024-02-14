@@ -23,10 +23,10 @@ export const links = [
     name: "Skills",
     hash: "#skills",
   },
-  {
-    name: "Experience",
-    hash: "#experience",
-  },
+  // {
+  //   name: "Experience",
+  //   hash: "#experience",
+  // },
   {
     name: "Contact",
     hash: "#contact",
@@ -64,42 +64,30 @@ export const projectsData = [
   {
     title: "Calculator",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "In this calculator I personally resolved some complex issues that we have any first time created that type of calculator.",
     tags: ["React", "Node.js", "Tailwind"],
     imageUrl: calculator,
     link: 'https://originalscalculator.netlify.app/'
-  },
-  {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-    link: 'https://originalscalculator.netlify.app/'
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-    link: 'https://originalscalculator.netlify.app/'
-  },
+  }
 ] as const;
 
 export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
   "React",
-  "Next.js",
   "Node.js",
   "Git",
   "GitHub",
   "Tailwind",
+  "Framer Motion",
+  "Java",
+  "Python",
+] as const;
+
+export const learnSkillsData = [
+  "TypeScript",
+  "Next.js",
   "MongoDB",
   "Express",
-  "Python",
-  "Framer Motion",
 ] as const;

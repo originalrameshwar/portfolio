@@ -40,12 +40,16 @@ export default function Project({
           </p>
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
             {tags.map((tag, index) => (
-              <li
+              <motion.li
+            whileHover={{
+              scale: 1.1,
+              transition: { duration: .1 },
+            }}
                 className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
                 key={index}
               >
                 {tag}
-              </li>
+              </motion.li>
             ))}
           </ul>
         </div>
