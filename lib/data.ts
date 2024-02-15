@@ -48,7 +48,7 @@ export const experiencesData = [
     description:
       "I build some front-end projects for last 6 months in 2nd year of college.",
     icon: React.createElement(FaReact),
-    date: "2019 - 2021",
+    date: "2022 - 2023",
   },
   {
     title: "Starving Full-Stack Developer",
@@ -56,7 +56,7 @@ export const experiencesData = [
     description:
       "I'm now creating full stack application My stack includes React, Next.js, TypeScript, Tailwind and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(CgGhost),
-    date: "2021 - present",
+    date: "2024 - present",
   },
 ] as const;
 
