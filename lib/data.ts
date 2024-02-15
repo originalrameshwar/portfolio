@@ -1,5 +1,5 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
+import { CgGhost,CgDetailsMore } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import calculator from "@/public/calculator.png";
@@ -35,27 +35,27 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduating ..",
+    location: "Sillod, Maharashtra",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I at my second year college",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2024",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
+      "I build some front-end projects for last 6 months in 2nd year of college.",
+    icon: React.createElement(FaReact),
     date: "2019 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Starving Full-Stack Developer",
+    location: "",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
+      "I'm now creating full stack application My stack includes React, Next.js, TypeScript, Tailwind and MongoDB. I'm open to full-time opportunities.",
+    icon: React.createElement(CgGhost),
     date: "2021 - present",
   },
 ] as const;
