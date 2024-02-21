@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata
  = {
-  title: "Ricardo | Personal Portfolio",
+  title: "Rameshwar | Personal Portfolio",
   description: "Ricardo is a full-stack developer with 8 years of experience.",
 };
 
