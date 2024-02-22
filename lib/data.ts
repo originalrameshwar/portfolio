@@ -3,6 +3,8 @@ import { CgGhost,CgDetailsMore } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import calculator from "@/public/calculator.png";
+import todo from "@/public/todoapp.png";
+import portfolio from "@/public/portfolio.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -62,13 +64,31 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "TodoApp",
+    description:
+      "This my new project that is under development right now.  ",
+    tags: ['React', 'Node.js', 'Tailwind','Typescript','Framer-motion','React-icons' ],
+    imageUrl: portfolio,
+    link: 'https://rameshwar-portfolio.netlify.app/'
+  },
+  {
     title: "Calculator",
     description:
       "In this calculator I personally resolved some complex issues that we have any first time created that type of calculator.",
     tags: ["React", "Node.js", "Tailwind"],
     imageUrl: calculator,
     link: 'https://originalscalculator.netlify.app/'
+  },
+  {
+    title: "TodoApp",
+    description:
+      "This my new project that is under development right now.  ",
+    tags: ["React", "Node.js", "Tailwind",'Typescript','Appwrite' ],
+    imageUrl: todo,
+    link: 'https://todoapp-appwrite.netlify.app/'
   }
+  
+  
 ] as const;
 
 export const skillsData = [
