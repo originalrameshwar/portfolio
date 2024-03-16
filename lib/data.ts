@@ -64,9 +64,9 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "TodoApp",
+    title: "Portfolio",
     description:
-      "This my new project that is under development right now.  ",
+      "This is the my portfolio project to showcase my work experience",
     tags: ['React', 'Node.js', 'Tailwind','Typescript','Framer-motion','React-icons' ],
     imageUrl: portfolio,
     link: 'https://rameshwar-portfolio.netlify.app/'
