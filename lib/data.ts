@@ -82,10 +82,10 @@ export const projectsData = [
   {
     title: "TodoApp",
     description:
-      "This my new project that is under development right now.  ",
-    tags: ["React", "Node.js", "Tailwind",'Typescript','Appwrite' ],
+      "This Todo app represents a culmination of my expertise in web development, employing a robust stack including React, Tailwind CSS, Vite, Node.js, JavaScript, and the powerful Appwrite backend.",
+    tags: ["React", "Node.js", "Tailwind",'JavaScript','Appwrite' ],
     imageUrl: todo,
-    link: 'https://todoapp-appwrite.netlify.app/'
+    link: 'https://todo-app-vite-react.netlify.app/'
   }
   
   
